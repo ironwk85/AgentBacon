@@ -1,0 +1,2 @@
+^C:\USERS\DIMITRI\DESKTOP\GAME BB\AGENTBACONLALO - V1.3\AGENT.MKB
+"C:\Marmalade\6.2\s3e\python\python.exe" "C:\Marmalade\6.2\s3e\makefile_builder\mkb.py" "c:/Users/Dimitri/Desktop/Game BB/agentBaconLalo - V1.3/Agent.mkb" "--default-buildenv=vc10" --msvc-project

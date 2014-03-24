@@ -1,0 +1,88 @@
+#!/usr/bin/env mkb
+files
+{
+    (source)
+    main.cpp
+    main.h
+    Bacon.cpp
+    Fondo.cpp
+    Input.h
+    Input.cpp
+    Font.h
+    Font.cpp
+    Menu.cpp
+    Musica.cpp
+    LifeStatus.cpp
+    sprites.cpp
+    sprites.h
+    corazones.cpp
+    corazones.h
+    claws.cpp
+    claws.h
+    Splash.cpp
+    Coin.h
+    Coin.cpp
+    MiniCoin.h
+    MiniCoin.cpp
+    Tnt.h
+    Tnt.cpp
+    Tank.h
+    Tank.cpp
+    Chuletas.h
+    Chuletas.cpp
+}
+
+assets
+{
+    (data)
+    textures/kevinBacon.png
+    music.wav
+	crash.wav
+	life.wav
+	maxiCoin.wav
+    textures/fondo.jpg
+	textures/menu.jpg
+	textures/lifeStatus.png
+	textures/claw.png
+	textures/tnt.png
+	textures/tank.png
+	textures/chuletas.png
+	textures/corazones.png
+	textures/musicOn.jpg
+	textures/musicOf.jpg
+	textures/monedas.png
+	textures/monedas200pts.png
+	textures/loading.jpg
+	textures/gameover.jpg
+	textures/final.jpg
+    iwgxfontbasic.group.bin
+	splashscreen.jpg
+	Level1.group.bin
+}
+
+subprojects
+{
+	iwgx
+	iw2d
+	iwgxfont
+	SoundEngine
+}
+
+
+#### AUTO GENERATED deployment settings from DeployTool.exe. Do not edit below this line ####
+deployments
+{
+	["Default"]
+	blackberry-author='smap'
+	blackberry-authorid='gYAAgOqe5aNwTHsW31_f64VcFFQ'
+	blackberry-cskpass='m2h5hzmb'
+	blackberry-keystore='C:/Users/ironwk/Local Settings/Application Data/Research In Motion/author.p12'
+	blackberry-phone-icon='data/logo2.jpg'
+	blackberry-storepass='M2H5hZmb'
+	caption='Agent Bacon'
+	icon='data/logo2.jpg'
+	name='AgentBacon'
+	version-major=16
+	version-minor=0
+	version-string='16.0'
+}

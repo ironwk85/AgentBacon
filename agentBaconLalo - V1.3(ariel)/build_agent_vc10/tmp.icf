@@ -1,0 +1,19 @@
+# comments and whitespace stripped by deployment tool
+[S3E]
+MemSize=52428800
+SysTraceToFile=1
+SplashScreenFile=splashscreen.jpg
+DispFixRot=Landscape
+SplashScreenMinTime=3000
+[GX]
+DataCacheSize=1048576
+[GxFont]
+TextureMaxSize = 2048
+[GL]
+AllowNoDepthBufferClear=1
+[TRACE]
+[Util]
+MemMgrMaxAllocWarning=0
+[s3e]
+SysAppVersion=16.0
+SysAppCaption="Agent Bacon"

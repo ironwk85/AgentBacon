@@ -1,0 +1,36 @@
+ResGroupResources:
+	CIwSoundData (0xd5610dab)
+		"crash" (0xf3ea916)
+		Size: 71998
+	CIwSoundData (0xd5610dab)
+		"life" (0x7c9a14a5)
+		Size: 6005
+	CIwSoundData (0xd5610dab)
+		"coin" (0x7c953f2e)
+		Size: 124382
+	CIwSoundData (0xd5610dab)
+		"maxiCoin" (0x5e1b3afd)
+		Size: 294786
+	ResList 'CIwSoundData' pos:37 size:497181
+
+	CIwSoundSpec (0xd569853c)
+		"explosion" (0x57921ec6)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"life" (0x7c9a14a5)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"coin" (0x7c953f2e)
+		Size: 30
+	CIwSoundSpec (0xd569853c)
+		"maxiCoin" (0x5e1b3afd)
+		Size: 30
+	ResList 'CIwSoundSpec' pos:497218 size:130
+
+	CIwSoundGroup (0x81c24cbe)
+		"sound_effects" (0x7f3c706d)
+		Size: 18
+	ResList 'CIwSoundGroup' pos:497348 size:28
+
+ResGroupResources: Wrote 497343 bytes to CIwResGroup "Level1"
+

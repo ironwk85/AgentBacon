@@ -1,0 +1,18 @@
+ResGroupResources:
+	CIwSoundData (0xd5610dab)
+		"life" (0x7c9a14a5)
+		Size: 972162
+	ResList 'CIwSoundData' pos:40 size:972172
+
+	CIwSoundSpec (0xd569853c)
+		"life" (0x7c9a14a5)
+		Size: 30
+	ResList 'CIwSoundSpec' pos:972212 size:40
+
+	CIwSoundGroup (0x81c24cbe)
+		"sound_effects" (0x7f3c706d)
+		Size: 18
+	ResList 'CIwSoundGroup' pos:972252 size:28
+
+ResGroupResources: Wrote 972244 bytes to CIwResGroup "LevelLife"
+

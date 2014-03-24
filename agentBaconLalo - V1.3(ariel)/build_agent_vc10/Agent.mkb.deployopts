@@ -1,0 +1,8 @@
+build "ARM GCC Release"
+outdir "c:/Users/ironwk/Documents/blackberry/juego/agentBaconLalo - V1.3(ariel)/build_agent_vc10"
+!task !name "Default:bb10" "Package and Install"
+!task hostname "169.254.0.1"
+!task password "31337"
+!config !name "Default"
+!config <os> "bb10"
+configlist "Default",

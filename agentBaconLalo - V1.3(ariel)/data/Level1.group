@@ -1,0 +1,51 @@
+CIwResGroup
+{
+	name "Level1"
+	"./crash.wav"
+	"./life.wav"
+	"./coin.wav"
+	"./maxiCoin.wav"
+
+	CIwSoundSpec
+	{
+		name "explosion"
+		data "crash"
+		vol 2.5
+		loop false
+	}
+
+	CIwSoundSpec
+	{
+		name "life"
+		data "life"
+		vol 2.5
+		loop false
+	}
+
+	CIwSoundSpec
+	{
+		name "coin"
+		data "coin"
+		vol 2.5
+		loop false
+	}
+
+	CIwSoundSpec
+	{
+		name "maxiCoin"
+		data "maxiCoin"
+		vol 2.5
+		loop false
+	}
+
+	CIwSoundGroup
+	{
+		name sound_effects
+		maxPolyphony 8
+		killOldest false
+		addSpec "explosion"
+		addSpec "life"
+		addSpec "coin"
+		addSpec "maxiCoin"
+	}
+}

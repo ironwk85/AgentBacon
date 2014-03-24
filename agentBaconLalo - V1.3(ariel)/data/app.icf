@@ -1,0 +1,30 @@
+[S3E]
+MemSize=52428800
+#MemSize=41943040
+#MemSizeDebug = 87108864
+SysTraceToFile=1
+SplashScreenFile=splashscreen.jpg
+DispFixRot=Landscape
+SplashScreenMinTime=3000
+
+[GX]
+#DataCacheSize=209715204
+DataCacheSize=1048576  
+#NumTPages=20
+
+[GxFont]
+TextureMaxSize = 2048
+
+# Uncomment this section to use full-screen anti-aliasing.
+[GL]
+#EGL_SAMPLE_BUFFERS=1
+#EGL_SAMPLES=4      # Use super-sampling if available. Change to 2 for cheaper multi-sampling
+AllowNoDepthBufferClear=1
+
+[TRACE]
+# Uncomment this to get more GX SysTrace.
+#GX_VERBOSE=1
+
+[Util]
+MemMgrMaxAllocWarning=0
+

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<qnx xmlns="http://www.qnx.com/schemas/application/1.0">
+    <id>com.mycompany.agentbacon</id>
+    <filename>AgentBacon</filename>
+    <name>AgentBacon</name>
+    <author>smap</author>
+    <authorId>gYAAgOqe5aNwTHsW31_f64VcFFQ</authorId>
+    <versionNumber>1.0.0</versionNumber>
+    <versionLabel>2.0</versionLabel>
+    <platformVersion>2.1.0.0</platformVersion>
+    <initialWindow>
+        <systemChrome>none</systemChrome>
+        <transparent>false</transparent>
+        <autoOrients>true</autoOrients>
+    </initialWindow>
+    <publisher>MyCompany</publisher>
+    <action system="true">run_native</action>
+    <category>core.games</category>
+    <icon>
+        <image>icon.png</image>
+    </icon>
+</qnx>
